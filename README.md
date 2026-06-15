@@ -52,7 +52,8 @@
 # 3. Final pase Program 1 (`Final_scientific_calculater.c`)
 
 * The Production Build Focus: Structural optimization and defensive coding.
-* Notes: The final, assignment-ready master file. It integrates all validated mathematical engines with strict domain-limit gates and terminal stream cleaning (`clearBuffer()`) to prevent input-induced runtime crashes.
+* Notes: The final, assignment-ready master file. It integrates all validated mathematical engines with
+some domain-limit gates and terminal stream cleaning (`clearBuffer()`) to prevent input-induced runtime crashes.
 
 
 
