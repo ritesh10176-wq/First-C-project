@@ -1,7 +1,3 @@
-That is a fantastic project structure! Building a calculator from scratch is an excellent way to truly understand how computers handle precision and numerical analysis.
-
-Here is the requested text for your README, with the specific emphasis you asked for:
-
 ---
 
 # Custom Scientific Calculator
