@@ -67,7 +67,6 @@ Let’s be completely real: this is a first-semester student project. It is far 
 Here are the known issues currently sitting in this code:
 * Inefficient Loops:** The loops calculating powers and factorials inside the Taylor series are slow. They recalculate everything from scratch on every turn, which is bad for performance.
 * Precision Drift:** Because of how standard decimals (`double`) work in C, the numbers start drifting slightly and losing accuracy if you push the calculations too far.
-* Monolithic File:** Everything is crammed into a single, massive `Final_scientific_calculater.c` file. It's tough to navigate and needs to be broken down into smaller, modular files.
 * Basic Error Handling:** While `clearBuffer()` stops basic terminal crashes, extreme mathematical edge cases can still break the logic.
 
 ## The Next Journey
