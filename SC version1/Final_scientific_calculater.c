@@ -26,7 +26,7 @@ int main() {
 	printf("_______________________________________________\n");
 	printf("you are currently using a scientific calculator\n");
 	printf("_______________________________________________\n");
-	printf("You can perform \n1.>factorial\n2.>powering of a number\n3.>calculate trignometric values\n4.>calculate logrithmic values\n5.>EXIT\n\n");
+	printf("You can perform \n1.>factorial\n2.>powering of a number\n3.>calculate trignometric values\n4.>calculate natural logrithmic values\n5.>EXIT\n\n");
 
 	while(1) {
 		int inchoice = 1;
@@ -198,7 +198,7 @@ int main() {
 			case '4': {
 				while(1) {
 					double numlog1;
-					printf("\n============log mode==============\n");
+					printf("\n============Natural log mode==============\n");
 					printf("Enter value of log : ");
 					if (scanf("%lf", &numlog1) != 1) {
 						printf("Invalid input! Please enter a number.\n");
