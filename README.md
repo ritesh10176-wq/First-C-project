@@ -74,7 +74,7 @@ Here are the known issues currently sitting in this code:
 * **Precision Drift:** Because of how standard decimals (`double`) work in C, the numbers start drifting slightly and losing accuracy if you push the calculations too far.
 * **Monolithic File:** Everything is crammed into a single, massive `Final_scientific_calculater.c` file. It's tough to navigate and needs to be broken down into smaller, modular files.
 * **Basic Error Handling:** While `clearBuffer()` stops basic terminal crashes, extreme mathematical edge cases can still break the logic.
-
+---
 ### The Next Journey
 
 Instead of patching this repository up and hiding my mistakes, I am leaving this project exactly as it was during my first semester to show my roots.
