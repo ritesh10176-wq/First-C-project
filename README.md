@@ -112,8 +112,10 @@ Rather than continuously patching this repository, I plan to rebuild the calcula
 ## Author's Story & Developer Notes
 
 > This was my very first C project, made for a Semester 1 assignment. At the time, I had only been learning C programming and college calculus simultaneously for about 2-3 months. I wanted to do something different, so I decided to integrate the core math concepts I was learning in my lectures directly into my code.
+> 
 > Using what I learned during those sessions, I implemented Taylor series, Maclaurin series, and angle reduction models to see how infinite series actually behave in a real program.
 > Looking back, the code has classic first-semester constraints—like algorithmic complexity issues in the power loops and basic floating-point truncation limits. However, debugging these early bottlenecks is exactly how I learned about numerical stability, memory safety, and input stream handling.
+> 
 > It might not be a flawless technical masterpiece, but it was my first real stepping stone into understanding how computers implement the language of mathematics. I am naturally drawn to these kinds of low-level, logic-heavy projects, and this is exactly where my software engineering journey started.
 > Instead of hiding early mistakes, I have chosen to keep this repository as a record of my learning process and growth as a developer.
 
