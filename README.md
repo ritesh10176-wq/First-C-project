@@ -1,27 +1,24 @@
+# Custom Scientific Calculator
+
+## Translating calculus lectures directly into native C code—approximating functions from scratch without `<math.h>`
+
+> *A Semester-1 / First Project**
 
 ---
 
-#  Custom Scientific Calculator
-> **A Semester-1/First Project** > *Translating calculus lectures directly into native C code—approximating functions from scratch without `<math.h>`*`
-
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 📂 C-PROJECTS/
 └── 📂 Custom_scientific_calculator/
-    ├── 📂 devlepment_history/
-    │   ├── Scientific_cal_prototype1.c    # Phase 1: Pure integer/basic looping structures
-    │   ├── Scientific_cal_prototype2.c    # Phase 2: Introduction of basic float tracking
-    │   └── Scientific_cal_prototype3.c    # Phase 3: Taylor series convergence approximations
-    ├── 📂 Testing_&_ChallengesFaced/
-    │   ├── cal_performance_Vs_benchmark_test.c  # Comparative validation harness vs <math.h>
-    │   └── Error_and_bug_incal.c                # Isolated debugging environment for domain limits
-    └── Final_scientific_calculater.c            # Final-ready, structural master program
-
-```
-
+    ├── 📂 devlepment_history/
+    │   ├── Scientific_cal_prototype1.c    # Phase 1: Pure integer/basic looping structures
+    │   ├── Scientific_cal_prototype2.c    # Phase 2: Introduction of basic float tracking
+    │   └── Scientific_cal_prototype3.c    # Phase 3: Taylor series convergence approximations
+    ├── 📂 Testing_&_ChallengesFaced/
+    │   ├── cal_performance_Vs_benchmark_test.c  # Comparative validation harness vs <math.h>
+    │   └── Error_and_bug_incal.c                # Isolated debugging environment for domain limits
+    └── Final_scientific_calculater.c            # Final-ready, structural master program
 ---
 
 ##  Evolution & Implementation Notes
