@@ -26,8 +26,6 @@
 
 ---
 
----
-
 ## Evolution & Implementation Notes
 
 ### 1. Early Prototypes (`/devlepment_history/`)
@@ -72,7 +70,6 @@ Here are the known issues currently sitting in this code:
 
 * **Inefficient Loops:** The loops calculating powers and factorials inside the Taylor series are slow. They recalculate everything from scratch on every turn, which is bad for performance.
 * **Precision Drift:** Because of how standard decimals (`double`) work in C, the numbers start drifting slightly and losing accuracy if you push the calculations too far.
-* **Monolithic File:** Everything is crammed into a single, massive `Final_scientific_calculater.c` file. It's tough to navigate and needs to be broken down into smaller, modular files.
 * **Basic Error Handling:** While `clearBuffer()` stops basic terminal crashes, extreme mathematical edge cases can still break the logic.
 ---
 ### The Next Journey
@@ -84,6 +81,7 @@ My next step is to build **Version 2** from scratch in a brand-new repository. I
 1. Rewriting the math loops to be faster and more memory-efficient.
 2. Tightening up accuracy to completely eliminate precision drift.
 3. Crushing the remaining edge-case bugs using a clean, professional file structure.
+   
 
 ---
 
