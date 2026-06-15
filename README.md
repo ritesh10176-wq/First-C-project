@@ -1,136 +1,162 @@
-# 🧮 Custom Scientific Calculator
+# Custom Scientific Calculator (C)
+A scientific calculator built entirely in C as my first-semester programming project.
 
-> A first-semester exploration into how mathematical functions can be implemented from scratch using numerical approximation techniques.
+## What Makes It Different?
+Instead of relying on `<math.h>` for advanced calculations, I explored how mathematical functions can be approximated from scratch using:
+* Taylor Series
+* Maclaurin Series
+* Angle Reduction Techniques
+* Custom Power & Factorial Logic
 
----
-
-# 🚀 Evolution & Implementation Notes
-
-## 1️⃣ Early Prototypes (`/devlepment_history/`)
-
-### 📄 `Scientific_cal_prototype1.c`
-
-**Focus:** **Pure integer structures.**
-
-**Notes:**
-> Built the core looping blocks to run fundamental calculations and understand initial program flow.
+This project was built while I was learning both C programming and introductory calculus.
 
 ---
 
-### 📄 `Scientific_cal_prototype2.c`
+## Project Structure
+```text
+C-PROJECTS/
+└── Custom_scientific_calculator/
+    ├── development_history/
+    │   ├── Scientific_cal_prototype1.c
+    │   ├── Scientific_cal_prototype2.c
+    │   └── Scientific_cal_prototype3.c
+    │
+    ├── Testing_&_ChallengesFaced/
+    │   ├── cal_performance_Vs_benchmark_test.c
+    │   └── Error_and_bug_incal.c
+    │
+    └── Final_scientific_calculater.c
+```markdown
+# Custom Scientific Calculator (C)
+A scientific calculator built entirely in C as my first-semester programming project.
 
-**Focus:** **Basic floating-point tracking.**
+## What Makes It Different?
+Instead of relying on `<math.h>` for advanced calculations, I explored how mathematical functions can be approximated from scratch using:
+* Taylor Series
+* Maclaurin Series
+* Angle Reduction Techniques
+* Custom Power & Factorial Logic
 
-**Notes:**
-> Introduced float logic to handle decimals, breaking away from pure integer constraints and expanding the calculator's range.
-
----
-
-### 📄 `Scientific_cal_prototype3.c`
-
-**Focus:** **Taylor & Maclaurin series approximation.**
-
-**Notes:**
-> **The first structural leap.**
->
-> Implemented infinite expansion loops and manual angle reduction logic to approximate complex mathematical functions from scratch.
-
----
-
-# 🧪 Testing & Debugging (`/Testing_&_ChallengesFaced/`)
-
-### 📄 `cal_performance_Vs_benchmark_test.c`
-
-**Focus:** **Comparative validation harness.**
-
-**Notes:**
-> A testing suite designed to run custom approximation algorithms side-by-side against the standard C library `<math.h>` to monitor precision drift.
+This project was built while I was learning both C programming and introductory calculus.
 
 ---
 
-### 📄 `Error_and_bug_incal.c`
+## Project Structure
+```text
+C-PROJECTS/
+└── Custom_scientific_calculator/
+    ├── development_history/
+    │   ├── Scientific_cal_prototype1.c
+    │   ├── Scientific_cal_prototype2.c
+    │   └── Scientific_cal_prototype3.c
+    │
+    ├── Testing_&_ChallengesFaced/
+    │   ├── cal_performance_Vs_benchmark_test.c
+    │   └── Error_and_bug_incal.c
+    │
+    └── Final_scientific_calculater.c
 
-**Focus:** **Isolated debugging environment.**
-
-**Notes:**
-> A dedicated sandbox used to reproduce, isolate, and safely fix boundary errors, such as handling fractional exponents on negative bases.
-
----
-
-# 🏁 Final Phase Program
-
-## 📄 `Final_scientific_calculater.c`
-
-### **The Production Build**
-
-**Focus:** **Structural optimization and defensive coding.**
-
-**Notes:**
-> The final, assignment-ready master file.
->
-> It integrates all validated mathematical engines with some domain-limit gates and terminal stream cleaning (`clearBuffer()`) to prevent input-induced runtime crashes.
+```
 
 ---
 
-# ⚠️ Current Issues & What's Next
+## Development Journey
 
-> **The Honest Truth**
+### Prototype 1
 
-Let’s be completely real:
+**Focus:** Core calculator logic
 
-This is a first-semester student project.
+* Built fundamental arithmetic operations
+* Practiced loops, conditions, and program flow
+* Worked entirely with integer-based calculations
 
-It is far from perfect, it still contains bugs, and I haven't fixed them in this repository because I want to preserve my actual learning journey.
+### Prototype 2
 
-### 🔴 Known Issues
+**Focus:** Floating-point support
 
-#### ⚡ Inefficient Loops
+* Added decimal number handling
+* Expanded calculator capabilities beyond integers
+* Introduced basic precision tracking
 
-> The loops calculating powers and factorials inside the Taylor series are slow.
->
-> They recalculate everything from scratch on every turn, which is bad for performance.
+### Prototype 3
 
-#### 🎯 Precision Drift
+**Focus:** Mathematical approximations
 
-> Because of how standard decimals (`double`) work in C, the numbers start drifting slightly and losing accuracy if you push the calculations too far.
+* Implemented Taylor and Maclaurin series
+* Built custom trigonometric approximations
+* Added angle reduction techniques
+* Explored convergence behavior of infinite series
 
-#### 🛡️ Basic Error Handling
+```
 
-> While `clearBuffer()` stops basic terminal crashes, extreme mathematical edge cases can still break the logic.
+```markdown
+## Testing & Debugging
+
+### Performance Validation
+* **File:** `cal_performance_Vs_benchmark_test.c`
+* Compared custom implementations against `<math.h>`
+* Measured approximation accuracy
+* Tracked precision drift across calculations
+
+### Bug Isolation Sandbox
+* **File:** `Error_and_bug_incal.c`
+* Dedicated environment for reproducing bugs
+* Tested boundary conditions
+* Investigated domain-related mathematical errors
 
 ---
 
-# 🛣️ The Next Journey
+## Final Version
+* **File:** `Final_scientific_calculater.c`
 
-Instead of patching this repository up and hiding my mistakes, I am leaving this project exactly as it was during my first semester to show my roots.
+The final assignment-ready version combines all validated components into a single program. 
 
-### 🎯 Version 2 Goals
-
-**1.** Rewriting the math loops to be faster and more memory-efficient.
-
-**2.** Tightening up accuracy to completely eliminate precision drift.
-
-**3.** Crushing the remaining edge-case bugs using a clean, professional file structure.
+**Features include:**
+* Scientific calculations
+* Domain validation checks
+* Input stream cleanup using `clearBuffer()`
+* Basic protection against invalid user input
+* Improved program stability
 
 ---
 
-<details>
-<summary><strong>📖 AUTHOR'S STORY & DEVELOPER NOTES</strong></summary>
+## Technical Lessons Learned
+This project taught me:
+* Numerical approximation methods
+* Floating-point limitations
+* Algorithmic efficiency
+* Debugging strategies
+* Input validation
+* Memory-aware programming
 
-This was my very first C project, made for a Semester 1 assignment.
+Most importantly, it showed me how mathematical concepts are translated into actual software.
 
-At the time, I had only been learning C programming and college calculus simultaneously for about 2-3 months.
+---
 
-I wanted to do something different, so I decided to integrate the core math concepts I was learning in my lectures directly into my code.
+## Known Limitations
+As this was my first major programming project, several issues remain intentionally preserved.
 
-Using what I learned during those sessions, I implemented Taylor series, Maclaurin series, and angle reduction models to see how infinite series actually behave in a real program.
+* **Performance:** Power and factorial calculations are recalculated repeatedly; some operations are slower than necessary.
+* **Precision:** Floating-point arithmetic introduces small accuracy losses; long calculations may accumulate rounding errors.
+* **Edge Cases:** Some extreme mathematical inputs are not fully handled; error handling can be improved further.
 
-Looking back, the code has classic first-semester constraints—like an O(N²) algorithmic complexity in the power loops and basic floating-point truncation limits.
+---
 
-However, debugging these early bottlenecks is exactly how I learned about numerical stability, memory safety, and input stream handling.
+## Future Version (V2)
+Rather than continuously patching this repository, I plan to rebuild the calculator from scratch with a cleaner architecture.
 
-It might not be a flawless technical masterpiece, but it was my first real stepping stone into understanding how computers implement the language of mathematics.
+**Planned improvements:**
+1. Faster mathematical algorithms
+2. Better numerical accuracy
+3. Stronger edge-case handling
+4. Modular file structure
+5. Improved maintainability
 
-I am naturally drawn to these kinds of low-level, logic-heavy projects, and this is exactly where my software engineering journey started.
+---
 
-</details>
+## Developer Note
+> This was my first C project, created during Semester 1 after roughly 2–3 months of learning programming.
+> 
+> While the code is far from perfect, it represents the beginning of my journey into low-level programming, mathematical computing, and software engineering. Instead of hiding early mistakes, I have chosen to keep this repository as a record of my learning process and growth as a developer.
+
+```
