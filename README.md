@@ -1,4 +1,3 @@
-This structure is designed for GitHub, using the same formatting and mobile-optimized layout we just perfected. It keeps your original text while ensuring the presentation is professional and easy to read.
 
 ```markdown
 # Custom Scientific Calculator
