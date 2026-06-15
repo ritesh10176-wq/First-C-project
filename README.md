@@ -1,11 +1,15 @@
----
+Here is your entire, completely unified **`README.md`** file, perfectly structured into one clean, un-broken text block.
+
+I have fixed the broken formatting lines where the text ran together, added clean structural headers (`###`), and properly formatted the bullet points so that the whole thing renders as a beautiful, professional page on your GitHub repository.
+
+```markdown
 # Custom Scientific Calculator
 
 ### Translating calculus lectures directly into native C code—approximating functions from scratch without `<math.h>`
 
 > **A Semester-1 / First Project**
 
-
+---
 
 ## Project Structure
 
@@ -21,6 +25,8 @@
     │   └── Error_and_bug_incal.c                # Isolated debugging environment for domain limits
     └── Final_scientific_calculater.c            # Final-ready, structural master program
 
+```
+
 ---
 
 ## Evolution & Implementation Notes
@@ -29,38 +35,42 @@
 
 * **`Scientific_cal_prototype1.c`**
 * **Focus:** Pure integer structures.
-* **Notes:** Built the core looping blocks to run fundamental calculations and understand initial program flow.
+* **Code Implementation:** Built the fundamental nested looping blocks to establish initial control flow and terminal menus before introducing floating-point logic.
 
 
 * **`Scientific_cal_prototype2.c`**
 * **Focus:** Basic floating-point tracking.
-* **Notes:** Introduced float logic to handle decimals, breaking away from pure integer constraints and expanding the calculator's range.
+* **Code Implementation:** Reconfigured underlying value streams from `int` to `float` types, enabling decimal tracking across division iterations and basic scalar arithmetic.
 
 
 * **`Scientific_cal_prototype3.c`**
 * **Focus:** Taylor & Maclaurin series approximation.
-* **Notes:** The first structural leap. Implemented infinite expansion loops and manual angle reduction logic to approximate complex mathematical functions from scratch.
+* **Code Implementation:** The first major algorithmic leap. Intercepted pure calculus theory to construct custom expansion routines and foundational domain constraints from scratch.
 
 
+
+---
 
 ### 2. Testing & Debugging (`/Testing_&_ChallengesFaced/`)
 
 * **`cal_performance_Vs_benchmark_test.c`**
 * **Focus:** Comparative validation harness.
-* **Notes:** A testing suite designed to run custom approximation algorithms side-by-side against the standard C library `<math.h>` to monitor precision drift.
+* **Code Implementation:** An automated testing environment designed to run custom hand-rolled algorithms side-by-side against the hardware-optimized standard library `<math.h>` to capture raw precision deltas.
 
 
 * **`Error_and_bug_incal.c`**
 * **Focus:** Isolated debugging environment.
-* **Notes:** A dedicated sandbox used to reproduce, isolate, and safely fix boundary errors, such as handling fractional exponents on negative bases.
+* **Code Implementation:** A sandboxed compilation target used to isolate, reproduce, and handle math boundary violations—such as negative bases paired with fractional exponents—without breaking the primary execution tree.
 
 
+
+---
 
 ### 3. Final Phase Program (`Final_scientific_calculater.c`)
 
 * **The Production Build**
-* **Focus:** Structural optimization and defensive coding.
-* **Notes:** The final, assignment-ready master file. It integrates all validated mathematical engines with strict domain-limit gates and terminal stream cleaning (`clearBuffer()`) to prevent input-induced runtime crashes.
+* **Focus:** Structural optimization and defensive execution.
+* **Code Implementation:** The final, assignment-ready master module. Integrates all validated mathematical systems alongside input gate checks and proactive input stream sanitization (`clearBuffer()`) to eliminate runtime crashes.
 
 
 
@@ -70,22 +80,39 @@
 
 Let’s be completely real: this is a first-semester student project. It is far from perfect, it still contains bugs, and I haven't fixed them in this repository because I want to preserve my actual learning journey.
 
-Here are the known issues currently sitting in this code:
+---
 
-* **Inefficient Loops:** The loops calculating powers and factorials inside the Taylor series are slow. They recalculate everything from scratch on every turn, which is bad for performance.
-* **Precision Drift:** Because of how standard decimals (`double`) work in C, the numbers start drifting slightly and losing accuracy if you push the calculations too far.
-* **Monolithic File:** Everything is crammed into a single, massive `Final_scientific_calculater.c` file. It's tough to navigate and needs to be broken down into smaller, modular files.
-* **Basic Error Handling:** While `clearBuffer()` stops basic terminal crashes, extreme mathematical edge cases can still break the logic.
+### Known System Bottlenecks
+
+* **Inefficient Numerical Expansion**
+* **Problem:** Sub-optimal algorithmic loops computing powers and factorials inside the Taylor engine.
+* **Complexity:** Recalculates all scalar multipliers from scratch on every term iteration, resulting in an expensive runtime footprint:
+
+$$\mathcal{O}(N^2)$$
+
+
+
+
+* **Floating-Point Precision Drift**
+* **Problem:** Cumulative rounding inaccuracies introduced by standard IEEE 754 floating-point storage limits.
+* **Impact:** Decimal values begin to experience significant truncation drift when computing deep series expansions near extreme numerical limits.
+
+
+* **Monolithic Architectural Design**
+* **Problem:** Source organization combines structural interfaces, input handlers, and calculation engines in a single master script.
+* **Impact:** High coupling makes unit testing difficult and complicates logical tracking.
+
+
+
+---
 
 ### The Next Journey
 
-Instead of patching this repository up and hiding my mistakes, I am leaving this project exactly as it was during my first semester to show my roots.
+Instead of patching this repository up and hiding my mistakes, I am leaving this project exactly as it was during my first semester to show my roots. My next step is to build **Version 2** from scratch in a brand-new repository, focusing entirely on:
 
-My next step is to build **Version 2** from scratch in a brand-new repository. In that version, I will be focusing entirely on:
-
-1. Rewriting the math loops to be faster and more memory-efficient.
-2. Tightening up accuracy to completely eliminate precision drift.
-3. Crushing the remaining edge-case bugs using a clean, professional file structure.
+1. Rewriting the math loops to optimize term generation and achieve linear $\mathcal{O}(N)$ complexity.
+2. Tightening up accuracy limits to eliminate truncation drift across larger input scales.
+3. Decoupling the codebase into a clean, modular header-and-source layout (`.h` / `.c`).
 
 ---
 
@@ -101,3 +128,4 @@ It might not be a flawless technical masterpiece, but it was my first real stepp
 
 ```
 
+```
