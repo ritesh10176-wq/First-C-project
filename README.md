@@ -60,3 +60,50 @@
 
 
 ---
+
+---
+
+# Current Issues & What's Next (The Honest Truth)
+
+Let’s be completely real: this is a first-semester student project. It is far from perfect, it still contains bugs, and I haven't fixed them in this repository because I want to preserve my actual learning journey. 
+
+Here are the known issues currently sitting in this code:
+* Inefficient Loops:** The loops calculating powers and factorials inside the Taylor series are slow. They recalculate everything from scratch on every turn, which is bad for performance.
+* Precision Drift:** Because of how standard decimals (`double`) work in C, the numbers start drifting slightly and losing accuracy if you push the calculations too far.
+* Monolithic File:** Everything is crammed into a single, massive `Final_scientific_calculater.c` file. It's tough to navigate and needs to be broken down into smaller, modular files.
+* Basic Error Handling:** While `clearBuffer()` stops basic terminal crashes, extreme mathematical edge cases can still break the logic.
+
+## The Next Journey
+Instead of patching this repository up and hiding my mistakes, I am leaving this project exactly as it was during my first semester to show my roots. 
+
+My next step is to build **Version 2** from scratch in a brand-new repository. In that version, I will be focusing entirely on:
+1. Rewriting the math loops to be faster and more memory-efficient.
+2. Tightening up accuracy to completely eliminate precision drift.
+3. Crushing the remaining edge-case bugs using a clean, professional file structure.
+
+---
+
+/*
+=============================================================================
+AUTHOR'S STORY & DEVELOPER NOTES:
+=============================================================================
+This was my very first C project, made for a Semester 1 assignment. At the time, 
+I had only been learning C programming and college calculus simultaneously for 
+about 2-3 months. I wanted to do something different, so I decided to integrate 
+the core math concepts I was learning in my lectures directly into my code.
+
+Using what I learned during those sessions, I implemented Taylor series, Maclaurin 
+series, and angle reduction models to see how infinite series actually behave in a 
+real program. 
+
+Looking back, the code has classic first-semester constraints—like an O(N^2) 
+algorithmic complexity in the power loops and basic floating-point truncation 
+limits. However, debugging these early bottlenecks is exactly how I learned about 
+numerical stability, memory safety, and input stream handling. 
+
+It might not be a flawless technical masterpiece, but it was my first real stepping 
+stone into understanding how computers implement the language of mathematics. I am 
+naturally drawn to these kinds of low-level, logic-heavy projects, and this is 
+exactly where my software engineering journey started.
+=============================================================================
+*/
