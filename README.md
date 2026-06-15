@@ -42,13 +42,11 @@ Taylor & Maclaurin series approximation. The first structural leap. Implemented 
 ### 2. Testing & Debugging (`/Testing_&_ChallengesFaced/`)
 
 * **`cal_performance_Vs_benchmark_test.c`**
- *  Focus: Comparative validation harness.
- *  Notes: A testing suite designed to run custom approximation algorithms side-by-side against the standard C library `<math.h>` to monitor precision drift.
+ *  Focus: Comparative validation harness :  A testing suite designed to run custom approximation algorithms side-by-side against the standard C library `<math.h>` to monitor precision drift.
 
 
 * **`Error_and_bug_incal.c`**
-* Focus: Isolated debugging environment.
-*  Notes: A dedicated sandbox used to reproduce, isolate, and safely fix boundary errors, such as handling fractional exponents on negative bases.
+* Focus: Isolated debugging environment : A dedicated sandbox used to reproduce, isolate, and safely fix boundary errors, such as handling fractional exponents on negative bases.
 
 
 
