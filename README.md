@@ -1,10 +1,11 @@
+---
 # Custom Scientific Calculator
 
 ### Translating calculus lectures directly into native C code—approximating functions from scratch without `<math.h>`
 
 > **A Semester-1 / First Project**
 
----
+
 
 ## Project Structure
 
@@ -100,4 +101,3 @@ It might not be a flawless technical masterpiece, but it was my first real stepp
 
 ```
 
-```
