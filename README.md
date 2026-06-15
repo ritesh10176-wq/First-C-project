@@ -1,4 +1,4 @@
----
+
 
 # Custom Scientific Calculator
 
@@ -89,6 +89,7 @@ My next step is to build **Version 2** from scratch in a brand-new repository. I
 
 ### Author's Story & Developer Notes
 
+---
 This was my very first C project, made for a Semester 1 assignment. At the time, I had only been learning C programming and college calculus simultaneously for about 2-3 months. I wanted to do something different, so I decided to integrate the core math concepts I was learning in my lectures directly into my code.
 
 Using what I learned during those sessions, I implemented Taylor series, Maclaurin series, and angle reduction models to see how infinite series actually behave in a real program.
