@@ -1,10 +1,12 @@
+That is a fantastic project structure! Building a calculator from scratch is an excellent way to truly understand how computers handle precision and numerical analysis.
+
+Here is the requested text for your README, with the specific emphasis you asked for:
 
 ---
 
-```markdown
 # Custom Scientific Calculator
 
-### Translating calculus lectures directly into native C code—approximating functions from scratch without `<math.h>`
+### **Translating calculus lectures directly into native C code—approximating functions from scratch without `<math.h>**`
 
 > **A Semester-1 / First Project**
 
@@ -28,23 +30,18 @@
 
 ---
 
+---
+
 ## Evolution & Implementation Notes
 
 ### 1. Early Prototypes (`/devlepment_history/`)
 
 * **`Scientific_cal_prototype1.c`**
-* **Focus:** Pure integer structures.
-* **Notes:** Built the core looping blocks to run fundamental calculations and understand initial program flow.
-
-
+Pure integer structures. Built the core looping blocks to run fundamental calculations and understand initial program flow.
 * **`Scientific_cal_prototype2.c`**
-* **Focus:** Basic floating-point tracking.
-* **Notes:** Introduced float logic to handle decimals, breaking away from pure integer constraints and expanding the calculator's range.
-
-
+Basic floating-point tracking. Introduced float logic to handle decimals, breaking away from pure integer constraints and expanding the calculator's range.
 * **`Scientific_cal_prototype3.c`**
-* **Focus:** Taylor & Maclaurin series approximation.
-* **Notes:** The first structural leap. Implemented infinite expansion loops and manual angle reduction logic to approximate complex mathematical functions from scratch.
+Taylor & Maclaurin series approximation. The first structural leap. Implemented infinite expansion loops and manual angle reduction logic to approximate complex mathematical functions from scratch.
 
 
 
