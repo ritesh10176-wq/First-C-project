@@ -1,8 +1,8 @@
-```markdown
 # Custom Scientific Calculator
 
+### Translating calculus lectures directly into native C code—approximating functions from scratch without `<math.h>`
+
 > **A Semester-1 / First Project**
-> *Translating calculus lectures directly into native C code—approximating functions from scratch without `<math.h>`*
 
 ---
 
@@ -19,8 +19,6 @@
     │   ├── cal_performance_Vs_benchmark_test.c  # Comparative validation harness vs <math.h>
     │   └── Error_and_bug_incal.c                # Isolated debugging environment for domain limits
     └── Final_scientific_calculater.c            # Final-ready, structural master program
-
-```
 
 ---
 
