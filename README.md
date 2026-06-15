@@ -42,13 +42,13 @@ Taylor & Maclaurin series approximation. The first structural leap. Implemented 
 ### 2. Testing & Debugging (`/Testing_&_ChallengesFaced/`)
 
 * **`cal_performance_Vs_benchmark_test.c`**
-* **Focus:** Comparative validation harness.
-* **Notes:** A testing suite designed to run custom approximation algorithms side-by-side against the standard C library `<math.h>` to monitor precision drift.
+  Focus: Comparative validation harness.
+  Notes: A testing suite designed to run custom approximation algorithms side-by-side against the standard C library `<math.h>` to monitor precision drift.
 
 
 * **`Error_and_bug_incal.c`**
-* **Focus:** Isolated debugging environment.
-* **Notes:** A dedicated sandbox used to reproduce, isolate, and safely fix boundary errors, such as handling fractional exponents on negative bases.
+  Focus: Isolated debugging environment.
+  Notes: A dedicated sandbox used to reproduce, isolate, and safely fix boundary errors, such as handling fractional exponents on negative bases.
 
 
 
@@ -72,6 +72,7 @@ Here are the known issues currently sitting in this code:
 * **Precision Drift:** Because of how standard decimals (`double`) work in C, the numbers start drifting slightly and losing accuracy if you push the calculations too far.
 * **Basic Error Handling:** While `clearBuffer()` stops basic terminal crashes, extreme mathematical edge cases can still break the logic.
 ---
+
 ### The Next Journey
 
 Instead of patching this repository up and hiding my mistakes, I am leaving this project exactly as it was during my first semester to show my roots.
